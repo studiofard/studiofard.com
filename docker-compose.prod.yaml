@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  web:
+  backend:
     ports:
-      - 8000
+      - 8001
     volumes:
       - static_volume:/app/staticfiles
 
@@ -13,7 +13,7 @@ services:
       - 80:80
       - 443:443
     depends_on:
-      - web
+      - backend
     restart: always
     volumes:
       - ./nginx/conf/:/etc/nginx/conf.d/:ro
