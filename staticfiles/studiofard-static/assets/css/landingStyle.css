@@ -9,9 +9,16 @@
 
 @font-face {
     font-family: "myFont";
-    src: url("../assets/fonts/Inter-Medium.ttf") format("embedded-opentype"), /* Internet Explorer */ url("../assets/fonts/Inter-Medium.ttf") format("woff2"),
-      /* Super Modern Browsers */ url("../assets/fonts/Inter-Medium.ttf") format("woff"), /* Pretty Modern Browsers */ url("../assets/fonts/Inter-Medium.ttf") format("truetype"),
-      /* Safari, Android, iOS */ url("../assets/fonts/Inter-Medium.ttf") format("svg"); /* Legacy iOS */
+    src: url("../fonts/Inter-Medium.ttf") format("embedded-opentype"),
+        /* Internet Explorer */
+         url("../fonts/Inter-Medium.ttf") format("woff2"),
+        /* Super Modern Browsers */
+         url("../fonts/Inter-Medium.ttf") format("woff"),
+        /* Pretty Modern Browsers */
+         url("../fonts/Inter-Medium.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+         url("../fonts/Inter-Medium.ttf") format("svg");
+    /* Legacy iOS */
 }
 
 body {
