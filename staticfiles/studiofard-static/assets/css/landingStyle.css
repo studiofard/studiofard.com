@@ -1,0 +1,63 @@
+:root {
+    --body-color: #121212;
+    --pink-color: #ff7f50;
+    --grey-color: #f6f6f6;
+    --blue-color: #1f3464;
+    --brown-color: #de3414;
+    --light-blue-color: #3399cc;
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("../assets/fonts/Inter-Medium.ttf") format("embedded-opentype"), /* Internet Explorer */ url("../assets/fonts/Inter-Medium.ttf") format("woff2"),
+      /* Super Modern Browsers */ url("../assets/fonts/Inter-Medium.ttf") format("woff"), /* Pretty Modern Browsers */ url("../assets/fonts/Inter-Medium.ttf") format("truetype"),
+      /* Safari, Android, iOS */ url("../assets/fonts/Inter-Medium.ttf") format("svg"); /* Legacy iOS */
+}
+
+body {
+    padding-top: 74px;
+    padding-left: 115px;
+    font-family: myFont;
+    background-color: var(--body-color);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--pink-color);
+}
+
+.descContainer {
+    font-size: 20px;
+    margin-top: 45px;
+    font-weight: 500;
+    color: var(--grey-color);
+}
+
+.iconContainer {
+    display: flex;
+    margin-top: 63px;
+    flex-direction: row;
+    color: var(--grey-color);
+}
+
+.iconWrapper {
+    display: flex;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconStyle {
+    width: 32;
+    height: 32;
+    margin-right: 8px;
+}
