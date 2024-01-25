@@ -1,5 +1,5 @@
-from salekcodes.settings import *  # noqa
-from salekcodes.settings import SECRET_KEY
+from studiofard.settings import *  # noqa
+from studiofard.settings import SECRET_KEY
 
 del SECRET_KEY
 

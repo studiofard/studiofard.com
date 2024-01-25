@@ -15,7 +15,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend/salekcodes-vue/
+      context: ./frontend/studiofard-vue/
       dockerfile: Dockerfile
     ports:
       - 8000:8000

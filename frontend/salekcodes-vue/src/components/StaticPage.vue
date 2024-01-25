@@ -6,17 +6,17 @@
         <div class="w-fit md:w-9/12 text-gray-200 whitespace-normal text-center rounded-xl shadow-2xl
                         space-y-8 px-6 py-8 bg-yellow-650 border-4 border-gray-300">
             <div class="text-xl sm:text-xl md:text-2xl lg:text-3xl font-semibold">🚧 Under Construction 🚧</div>
-            <div class="text-base sm:text-base md:text-lg lg:text-xl font-semibold">Welcome to SalekCodes!</div>
+            <div class="text-base sm:text-base md:text-lg lg:text-xl font-semibold">Welcome to studiofard!</div>
             <div class="w-11/12 mx-auto">
                 <div class="text-sm sm:text-sm md:text-base lg:text-base text-center">
-                    SalekCodes is an open-source personal website project currently undergoing active development. It
+                    studiofard is an open-source personal website project currently undergoing active development. It
                     strives to offer a simple yet visually appealing web experience, which will be unveiled soon!
                 </div>
             </div>
             <div class="space-y-3">
                 <p class="text-xs sm:text-xs md:text-xs lg:text-base">visit the project on:</p>
                 <div>
-                    <a href="https://github.com/MohammadSalek/salekcodes.com" target="_blank"
+                    <a href="https://github.com/studiofard/studiofard.com" target="_blank"
                         class="bg-slate-100 hover:bg-zinc-300 active:bg-slate-100 focus:outline-none focus:ring focus:ring-slate-100 text-slate-700
                                                                                                          rounded-md py-3 px-8 lg:px-12 relative inline-flex items-center">
                         <svg class="inline-block align-middle text-slate-700 fill-current"
@@ -29,14 +29,14 @@
                     </a>
                 </div>
                 <div class="pt-1 space-y-1 grid place-content-center place-items-center">
-                    <a href="https://github.com/MohammadSalek/salekcodes.com/actions/workflows/django.yml" target="_blank">
+                    <a href="https://github.com/studiofard/studiofard.com/actions/workflows/django.yml" target="_blank">
                         <img class="px-0.5 h-4"
-                            src="https://github.com/MohammadSalek/salekcodes.com/actions/workflows/django.yml/badge.svg"
+                            src="https://github.com/studiofard/studiofard.com/actions/workflows/django.yml/badge.svg"
                             alt="main">
                     </a>
-                    <a href="https://github.com/MohammadSalek/salekcodes.com/blob/main/LICENSE" target="_blank">
+                    <a href="https://github.com/studiofard/studiofard.com/blob/main/LICENSE" target="_blank">
                         <img class="pe-2 px-0.5 h-4"
-                            src="https://img.shields.io/github/license/mohammadsalek/salekcodes.com?color=cornflowerblue"
+                            src="https://img.shields.io/github/license/studiofard/studiofard.com?color=cornflowerblue"
                             alt="license">
                     </a>
                 </div>

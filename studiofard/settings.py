@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from decouple import config
@@ -41,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'salekcodes.urls'
+ROOT_URLCONF = 'studiofard.urls'
 
 TEMPLATES = [
     {
@@ -61,7 +62,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'salekcodes.wsgi.application'
+WSGI_APPLICATION = 'studiofard.wsgi.application'
 
 
 DATABASES = {
@@ -98,6 +99,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/images/'
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'core.User'
@@ -107,8 +111,8 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'SalekCodes API',
-    'DESCRIPTION': 'API for SalekCodes.com website',
+    'TITLE': 'studiofard API',
+    'DESCRIPTION': 'API for studiofard.com website',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
 }

@@ -3,7 +3,7 @@ from django.db import models
 from django.utils.text import slugify
 from django_quill.fields import QuillField
 
-from salekcodes.models import Base
+from studiofard.models import Base
 
 
 class Post(Base):

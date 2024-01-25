@@ -9,7 +9,7 @@
     "tailwindcss": "^3.3.6",
     "vite": "^4.4.5"
   },
-  "name": "salekcodes-vue",
+  "name": "studiofard-vue",
   "private": true,
   "scripts": {
     "build": "vite build",

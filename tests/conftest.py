@@ -22,7 +22,7 @@ from resume_cv.models import (
 @pytest.fixture
 def user_kwargs():
     yield {
-        'email': 'test@salekcodes.com',
+        'email': 'test@studiofard.com',
         'password': 'TestPassword123$%^',  # pragma: allowlist secret
     }
 
@@ -97,7 +97,7 @@ def experience_kwargs():
         'description': 'test desc',
         'start_at': datetime(2023, 1, 1, tzinfo=pytz.utc),
         'end_at': datetime(2024, 1, 1, tzinfo=pytz.utc),
-        'url': 'https://salekcodes.com',
+        'url': 'https://studiofard.com',
     }
 
 
@@ -133,7 +133,7 @@ def certificate_kwargs():
         'issuer': 'test issuer',
         'issued_at': datetime(2023, 1, 1, tzinfo=pytz.utc),
         'expire_at': datetime(2024, 1, 1, tzinfo=pytz.utc),
-        'url': 'https://salekcodes.com',
+        'url': 'https://studiofard.com',
     }
 
 
@@ -161,11 +161,11 @@ def award(award_kwargs):
 @pytest.fixture
 def contact_kwargs():
     yield {
-        'email': 'test@salekcodes.com',
+        'email': 'test@studiofard.com',
         'phone': '+12345678901',
-        'website': 'https://salekcodes.com',
-        'github': 'https://github.com/mohammadsalek/',
-        'linkedin': 'http://linkedin.com/in/mohammad-salek/',
+        'website': 'https://studiofard.com',
+        'github': 'https://github.com/studiofard/',
+        'linkedin': 'http://linkedin.com/in/studiofard/',
     }
 
 
